@@ -27,7 +27,7 @@ export async function bootstrap() {
   });
   const config = new DocumentBuilder()
     .setTitle("Users example")
-    .setDescription("The user API description")
+    .setDescription("The user API description...test")
     .setVersion("1.0")
     .addTag("users")
     .build();
