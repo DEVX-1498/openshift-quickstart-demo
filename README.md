@@ -111,7 +111,7 @@ Locate an OpenShift pipeline token:
 
 OpenShift project/namespace.  Provided by your OpenShift platform team.
 
-* Consume: `{{ vars.OC_NAMESPACE }}`
+* Consume: `{{ secrets.OC_NAMESPACE }}`
 * Value: format `abc123-dev | test | prod`
 
 **SONAR_TOKEN(s)**
