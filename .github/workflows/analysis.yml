@@ -57,6 +57,7 @@ jobs:
           sonar_token: ${{ secrets[matrix.token] }}
           triggers: ('${{ matrix.dir }}/')
 
+
   # https://github.com/marketplace/actions/aqua-security-trivy
   trivy:
     name: Trivy Security Scan
